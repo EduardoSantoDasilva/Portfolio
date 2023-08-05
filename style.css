@@ -556,7 +556,6 @@ section.formcontato {
 /*Menu*/
 body {
     max-width: 360px;
-    height: 4250px;
 }
 
 section.title .title__div {
@@ -569,7 +568,7 @@ section.title .title__div {
 section.title .title__div .title__container {
     width: 328px;
     height: 148px;
-    gap: 16px;
+    margin-bottom: 20px;
 }
 
 section.title .title__div h3 {
@@ -597,10 +596,11 @@ section.title .title__network li {
 /*Titulo*/
 
 /*Sessão sobre*/
+
 section.about .about__container {
     width: 328px;
     height: 318px;
-    gap: 16px;
+    padding: 20px;
 }
 
 section.about p {
@@ -691,7 +691,11 @@ section.experience .experience__info{
 }
 /*Footer*/
 .footer{
-    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 296px;
     height: 102px;
 }
 }
