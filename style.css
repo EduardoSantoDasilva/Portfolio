@@ -691,10 +691,7 @@ section.experience .experience__info{
 }
 /*Footer*/
 .footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     width: 296px;
     height: 102px;
 }
